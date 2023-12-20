@@ -65,7 +65,7 @@ Send `daniel@nextgenbt.com` the _private_ GitHub link when you're done. Addition
 
 Good luck!
 
-### Solution Script Execution Guide
+## Solution Script Execution Guide
 
 This script facilitates voting operations and retrieving poll results. Follow these steps to interact with the solution:
 

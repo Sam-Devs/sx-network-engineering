@@ -13,7 +13,8 @@
     "test": "hardhat test",
     "compile": "tsc",
     "typechain": "hardhat typechain",
-    "deploy": "hardhat run scripts/deploy.ts --network localhost"
+    "deploy": "hardhat run scripts/deploy.ts --network localhost",
+    "interact" : "hardhat run scripts/interact.ts --network localhost"
   },
   "author": "Dan Kostiuk <daniel@nextgenbt.com>",
   "license": "MIT",

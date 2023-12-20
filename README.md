@@ -64,3 +64,44 @@ Fork this repo, and _make your new repo private_. Write your code in a sub-folde
 Send `daniel@nextgenbt.com` the _private_ GitHub link when you're done. Additionally, please give `@dankostiuk` access.
 
 Good luck!
+
+### Solution Script Execution Guide
+
+This script facilitates voting operations and retrieving poll results. Follow these steps to interact with the solution:
+
+#### Prerequisites
+Ensure you have Node.js and npm installed, then run `npm install`
+
+#### Running the Script
+
+1. **Terminal One:** Start the local network
+   - Run `npx hardhat node` in the terminal to initiate the local node.
+
+2. **Terminal Two:** Run the interaction script
+   - Execute `npm run interact` in a separate terminal.
+
+#### Operation Prompts
+
+Upon running the interaction script, you'll be prompted to select an operation from the following choices: `commit`, `reveal`, or `getwinner`.
+
+### Operations Details
+
+#### Commit Operation
+If you choose `commit`:
+- You'll be prompted to enter a vote option: `yes` or `no`.
+- Next, enter a secret message for commitment. Remember this message for future reveal operations.
+- Successful commitment will return a message 'COMMITTED'. Entering arbitrary inputs will prompt an error message.
+
+#### Reveal Operation
+Select `reveal` to reveal your committed vote:
+- Provide the vote option (previously selected: `yes` or `no`).
+- Enter the secret message used during commitment.
+- Upon successful reveal, you will receive a 'REVEALED' confirmation. Incorrect inputs will result in an error message.
+
+#### GetWinner Operation
+If you opt for `getwinner`:
+- This operation retrieves the winner of the poll, which will be either `YES` or `NO`.
+
+### Note
+- Ensure the secret message used for commitment is remembered and correctly entered during the reveal operation.
+- The script will guide you through the different stages, allowing for voting, commitment, and reveal, ultimately providing the poll's winner.

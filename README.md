@@ -83,6 +83,7 @@ Ensure you have Node.js and npm installed, then run `npm install`
 #### Operation Prompts
 
 Upon running the interaction script, you'll be prompted to select an operation from the following choices: `commit`, `reveal`, or `getwinner`.
+Find a short video where I ran all the operations (`commit`, `reveal`, `getwinner`) [here](https://www.awesomescreenshot.com/video/23463568?key=0689abad53ffa953802d84a1fb7a06b6).
 
 ### Operations Details
 
